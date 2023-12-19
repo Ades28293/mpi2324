@@ -14,6 +14,8 @@ int main(int argc, char** argv) {
 
     std::printf("Rank %d od %d procs\n", rank, nprocs);
 
+    
+
     MPI_Finalize();
 
 }
